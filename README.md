@@ -15,10 +15,10 @@ a discord bot router is where you can create easely Slash commands!
 
 ```js
 await rest.put(
-                    Routes.applicationCommands(clientId, guildId), {
-                        body: client.commandArray
-                    },
-                );
+    Routes.applicationGuildCommands(clientId, guildId), {
+        body: client.commandArray
+    },
+);
 ```
 
 and yeah thats done :D Enjoy!
