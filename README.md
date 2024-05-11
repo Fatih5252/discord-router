@@ -12,6 +12,8 @@ a discord bot router is where you can create easely Slash commands!
 - type in your terminal: npm init, npm i dotenv, npm i discord.js, npm i @discordjs/rest, npm i @discordjs/builders
 - go to src/functions/handelcommands and paste your client id in line 5
 - go to your .env file and paste your bot token
+
+## optional things to do:
 - if you want guild commands then go to src/functions/handelcommands and paste your guild id in line 6 (if you want global commands then you can delete the line). !!WARNING!! but you must change some things, go to src/functions/handelcommands and line 28 - 32 and delete that line and paste this:
 
 ```js
