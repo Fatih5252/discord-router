@@ -12,7 +12,7 @@ a discord bot router is where you can create easely Slash commands!
 - go to src/functions/handelcommands and paste your client id in line 5 
 - go to your .env file and paste your bot token
 - if you want guild commands then go to src/functions/handelcommands and paste your guild id in line 6. !!WARNING!! but you must change some things, go to src/functions/handelcommands and line 28 - 32 and delete that line and paste this:
-<br>
+
 ```js
 await rest.put(
                     Routes.applicationCommands(clientId, guildId), {
